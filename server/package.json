@@ -1,0 +1,20 @@
+{
+  "name": "plate-server",
+  "packageManager": "yarn@4.5.0",
+  "dependencies": {
+    "@hocuspocus/extension-logger": "^2.13.6",
+    "@hocuspocus/server": "^2.13.6",
+    "@slate-yjs/core": "^1.0.2",
+    "@types/node": "^22.5.5",
+    "slate": "^0.103.0",
+    "y-protocols": "^1.0.6",
+    "yjs": "^13.6.19"
+  },
+  "scripts": {
+    "run": "node server.js",
+    "build": "yarn tsc server.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
